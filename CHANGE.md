@@ -1,3 +1,21 @@
+## v1.2.0
+
+- Add arch parameter.
+
+- **Tool list**
+
+    - Arduino
+
+        Support all basic avr arduino board.
+
+    - Python
+
+        With uflash and microfs inside, for microbit.
+
+    **Support system**
+
+    - Windows x86/x64
+
 ## v1.1.0
 
 **Tool list**
