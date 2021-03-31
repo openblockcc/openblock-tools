@@ -15,6 +15,7 @@
     **Support system**
 
     - Windows x86/x64
+    - macOS x64
 
 ## v1.1.0
 
@@ -31,7 +32,6 @@
 **Support system**
 
 - Windows x86/x64
-- macOS x64
 
 ## v1.0.0
 
