@@ -1,6 +1,25 @@
+## v2.0.0
+
+change arduino-builder to arduino-cli.
+
+**Tool list**
+
+- Arduino
+
+    Support all basic avr arduino board.
+
+- Python
+
+    With uflash and microfs inside, for microbit.
+
+**Support system**
+
+- Windows x86/x64
+- macOS x64
+
 ## v1.2.0
 
-- Add arch parameter.
+Add arch parameter.
 
 - **Tool list**
 
@@ -11,10 +30,11 @@
     - Python
 
         With uflash and microfs inside, for microbit.
-
-    **Support system**
+    
+- **Support system**
 
     - Windows x86/x64
+    - macOS x64
 
 ## v1.1.0
 
