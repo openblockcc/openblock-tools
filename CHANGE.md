@@ -50,7 +50,7 @@ Add arch parameter.
 
 **Support system**
 
-- Windows 32/64
+- Windows x86/x64
 
 ## v1.0.0
 
