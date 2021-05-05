@@ -1,6 +1,6 @@
 ## v2.1.0
 
-change arduino-builder to arduino-cli.
+Add arduino esp32 support.
 
 **Tool list**
 
@@ -8,7 +8,7 @@ change arduino-builder to arduino-cli.
 
     Support all basic avr arduino board.
 
-    Esp32.
+    Support esp32.
 
 - Python
 
