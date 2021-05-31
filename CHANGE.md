@@ -1,3 +1,26 @@
+## v2.2.0
+
+Add arduino esp8266 support.
+
+**Tool list**
+
+- Arduino
+
+    arduino:avr
+
+    esp32:esp32
+
+     esp8266:esp8266
+
+- Python
+
+    With uflash and microfs inside, for microbit.
+
+**Support system**
+
+- Windows x86/x64
+- macOS x64
+
 ## v2.1.0
 
 Add arduino esp32 support.
