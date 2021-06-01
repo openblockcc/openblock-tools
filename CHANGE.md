@@ -10,7 +10,9 @@ Add arduino esp8266 support.
 
     esp32:esp32
 
-     esp8266:esp8266
+    esp8266:esp8266
+
+    SparkFun:avr
 
 - Python
 
