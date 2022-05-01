@@ -8,21 +8,25 @@ This repo does not contain any source code. It is just used to release binary fi
 
     Supported boards:
 
-    1. arduino:avr
-    2. esp32:esp32
-    3. esp8266:esp8266
-    4. SparkFun:avr
-    5. Maixduino:k210
+    | ID              | Version | Name                |
+    | --------------- | ------- | ------------------- |
+    | arduino:avr     | 1.8.5   | Arduino AVR Boards  |
+    | esp32:esp32     | 1.0.6   | esp32               |
+    | esp8266:esp8266 | 3.0.2   | esp8266             |
+    | Maixduino:k210  | 0.3.11  | Maixduino(k210)     |
+    | SparkFun:avr    | 1.1.13  | SparkFun AVR Boards |
 
 - Python
 
     Packages:
 
-    1. uflash v2.0.0
-    2. microfs v1.4.5
-    3. esptool v3.3
-    4. kflash v1.0.2
-    5. openblock-obmpy v1.1.3
+    | Name            | Version |
+    | --------------- | ------- |
+    | uflash          | 2.0.0   |
+    | microfs         | 1.4.5   |
+    | esptool         | 3.3     |
+    | kflash          | 1.0.2   |
+    | openblock-obmpy | 1.1.3   |
 
 ## Support system
 
