@@ -1,3 +1,5 @@
+# Changelog
+
 ## v2.3.1
 
 1. Update the version of arduino-cli
