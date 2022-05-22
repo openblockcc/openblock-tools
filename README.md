@@ -26,7 +26,7 @@ This repo does not contain any source code. It is just used to release binary fi
     | microfs         | 1.4.5   |
     | esptool         | 3.3     |
     | kflash          | 1.0.2   |
-    | openblock-obmpy | 1.1.3   |
+    | openblock-obmpy | 1.1.4   |
 
 ## Support system
 

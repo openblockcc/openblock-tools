@@ -1,5 +1,40 @@
 # Changelog
 
+## v2.3.2
+
+1. Update the version of openblock-obmpy to support set rts and dtr flow control.
+
+**Tool list**
+
+- Arduino CLI v0.21.1
+
+    Supported boards:
+
+    | ID              | Version | Name                |
+    | --------------- | ------- | ------------------- |
+    | arduino:avr     | 1.8.5   | Arduino AVR Boards  |
+    | esp32:esp32     | 1.0.6   | esp32               |
+    | esp8266:esp8266 | 3.0.2   | esp8266             |
+    | Maixduino:k210  | 0.3.11  | Maixduino(k210)     |
+    | SparkFun:avr    | 1.1.13  | SparkFun AVR Boards |
+
+- Python
+
+    Packages:
+
+    | Name            | Version |
+    | --------------- | ------- |
+    | uflash          | 2.0.0   |
+    | microfs         | 1.4.5   |
+    | esptool         | 3.3     |
+    | kflash          | 1.0.2   |
+    | openblock-obmpy | 1.1.4   |
+
+**Support system**
+
+- Windows x86/x64
+- macOS x64
+
 ## v2.3.1
 
 1. Update the version of arduino-cli
