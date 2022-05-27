@@ -16,6 +16,14 @@ This repo does not contain any source code. It is just used to release binary fi
     | Maixduino:k210  | 0.3.11  | Maixduino(k210)     |
     | SparkFun:avr    | 1.1.13  | SparkFun AVR Boards |
 
+    Preinstalled Libraries:
+
+    | Name       | Version |
+    | ---------- | ------- |
+    | Servo      | 1.1.6   |
+    | ServoESP32 | 1.0.3   |
+    | ServoK210  | 1.0.0   |
+
 - Python
 
     Packages:
@@ -26,7 +34,7 @@ This repo does not contain any source code. It is just used to release binary fi
     | microfs         | 1.4.5   |
     | esptool         | 3.3     |
     | kflash          | 1.0.2   |
-    | openblock-obmpy | 1.1.4   |
+    | openblock-obmpy | 1.1.6   |
 
 ## Support system
 
