@@ -26,6 +26,13 @@ This repo does not contain any source code. It is just used to release binary fi
 
 - Python
 
+    Version:
+
+    | OS      | Version |
+    | ------- | ------- |
+    | Windows | 3.7.9   |
+    | macOS   | 3.8.3   |
+
     Packages:
 
     | Name            | Version |
@@ -34,7 +41,7 @@ This repo does not contain any source code. It is just used to release binary fi
     | microfs         | 1.4.5   |
     | esptool         | 3.3     |
     | kflash          | 1.0.2   |
-    | openblock-obmpy | 1.1.6   |
+    | openblock-obmpy | 1.2.0   |
 
 ## Support system
 
