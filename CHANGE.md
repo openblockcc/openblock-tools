@@ -1,9 +1,16 @@
 # Changelog
 
+## v2.6.0
+
+1. Add support for linux x86/x32.
+2. Update arduino libraries Servo 1.1.6 -> 1.1.8
+3. Update arduino rp2040:rp2040 2.5.4 -> 2.6.0
+
 ## v2.5.0
 
 1. Add new arduino board: Raspberry Pi Pico
 2. Add new arduino libraries: SimpleList, avr-stl
+3. Update arduino-cli v0.21.1 -> v0.27.1.
 
 **Tool list**
 
@@ -18,7 +25,7 @@
     | esp8266:esp8266 | 3.0.2   | esp8266                  |
     | Maixduino:k210  | 0.3.11  | Maixduino(k210)          |
     | SparkFun:avr    | 1.1.13  | SparkFun AVR Boards      |
-    | rp2040:rp2040   | 2.5.4   | Raspberry Pi Pico/RP2040 |
+    | rp2040:rp2040   | 2.6.0   | Raspberry Pi Pico/RP2040 |
 
     Preinstalled Libraries:
 
