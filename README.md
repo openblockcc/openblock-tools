@@ -4,7 +4,7 @@ This repo does not contain any source code. It is just used to release binary fi
 
 ## Tool list
 
-- Arduino CLI v0.27.1
+- Arduino CLI v0.35.3
 
     Supported boards:
 
