@@ -1,5 +1,13 @@
 # Changelog
 
+## v2.8.0
+
+1. Upgrade arduino:avr v1.8.5 -> v1.8.6
+2. Upgrade rp2040:rp2040 v2.6.0 -> v4.4.4
+3. Upgrade esp32:esp32 v1.0.6 -> v3.1.3
+4. Add arduino:renesas_uno
+5. Modify the configuration to prevent arduino-cli from checking for updates on startup
+
 ## v2.7.0
 
 1. Update arduino-cli v0.27.1 -> v0.35.3
