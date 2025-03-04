@@ -1,0 +1,47 @@
+name: Generate SHA256 Checksums
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  generate-checksums:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download Release Assets
+        uses: robinraju/release-downloader@v1.8
+        with:
+          repository: ${{ github.repository }}
+          latest: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fileName: "*.7z"
+
+      - name: Calculate SHA256 Checksum
+        id: checksum
+        run: |
+          # Get the release tag name (e.g., v1.0.0)
+          RELEASE_TAG="${{ github.event.release.tag_name }}"
+
+          # Remove the leading 'v' from the tag if it exists
+          RELEASE_TAG_NO_V="${RELEASE_TAG#v}"
+
+          # Export the RELEASE_TAG_NO_V as an environment variable
+          echo "RELEASE_TAG_NO_V=${RELEASE_TAG_NO_V}" >> $GITHUB_ENV
+
+          # Create a checksum file named after the release tag
+          CHECKSUMS_FILE="${RELEASE_TAG_NO_V}-checksums-sha256.txt"
+
+          # Loop through all .7z files and calculate the SHA256 checksum
+          for file in *.7z; do
+            sha256sum "$file" >> "$CHECKSUMS_FILE"  # Append checksum to the file
+          done
+
+          # Print the checksum file to the console for debugging
+          cat "$CHECKSUMS_FILE"
+
+      - name: Upload Checksum File to Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: "${{ env.RELEASE_TAG_NO_V }}-checksums-sha256.txt"
+          token: ${{ secrets.GITHUB_TOKEN }}
