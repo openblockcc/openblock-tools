@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.9.0
+
+1. Add ArduinoGraphics library.
+
 ## v2.8.0
 
 1. Upgrade arduino:avr v1.8.5 -> v1.8.6

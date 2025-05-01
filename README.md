@@ -20,13 +20,14 @@ This repo does not contain any source code. It is just used to release binary fi
 
     Preinstalled Libraries:
 
-    | Name       | Version |
-    | ---------- | ------- |
-    | Servo      | 1.1.8   |
-    | ServoESP32 | 1.0.3   |
-    | ServoK210  | 1.0.0   |
-    | SimpleList | 1.0.1   |
-    | avr-stl    | 1.0.1   |
+    | Name            | Version |
+    | --------------- | ------- |
+    | Servo           | 1.1.8   |
+    | ServoESP32      | 1.0.3   |
+    | ServoK210       | 1.0.0   |
+    | SimpleList      | 1.0.1   |
+    | avr-stl         | 1.0.1   |
+    | ArduinoGraphics | 1.1.4   |
 
 - Python
 
