@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.10.0
+
+1. Change the esp32 servo library from ServoESP32 to ESP32Servo to adapt to the esp32 core 3.x.
+
 ## v2.9.0
 
 1. Add ArduinoGraphics library.
