@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.11.0
+
+1. Upgrade openblock-obmpy from 1.2.0 -> 1.3.5.
+2. Upgrade esptool from 3.3 -> 4.8.1.
+3. Replace python on ubuntu and mac to support ssl.
+
 ## v2.10.0
 
 1. Change the esp32 servo library from ServoESP32 to ESP32Servo to adapt to the esp32 core 3.x.

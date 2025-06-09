@@ -36,8 +36,8 @@ This repo does not contain any source code. It is just used to release binary fi
     | OS      | Version |
     | ------- | ------- |
     | Windows | 3.7.9   |
-    | macOS   | 3.8.3   |
-    | Linux   | 3.9.13  |
+    | macOS   | 3.11.8  |
+    | Linux   | 3.11.8  |
 
     Packages:
 
@@ -45,9 +45,9 @@ This repo does not contain any source code. It is just used to release binary fi
     | --------------- | ------- |
     | uflash          | 2.0.0   |
     | microfs         | 1.4.5   |
-    | esptool         | 3.3     |
+    | esptool         | 4.8.1   |
     | kflash          | 1.0.2   |
-    | openblock-obmpy | 1.2.0   |
+    | openblock-obmpy | 1.3.5   |
 
 ## Support system
 
