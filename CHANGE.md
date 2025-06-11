@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.11.1
+
+1. Upgrade arduino library ESP32Servo from 3.0.6 -> 3.0.7.1 to fix esp32 can't provide a PPM and PWM output at the same time.
+
 ## v2.11.0
 
 1. Upgrade openblock-obmpy from 1.2.0 -> 1.3.5.

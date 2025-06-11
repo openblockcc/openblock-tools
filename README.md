@@ -23,7 +23,7 @@ This repo does not contain any source code. It is just used to release binary fi
     | Name            | Version |
     | --------------- | ------- |
     | Servo           | 1.1.8   |
-    | ESP32Servo      | 3.0.6   |
+    | ESP32Servo      | 3.0.7.1 |
     | ServoK210       | 1.0.0   |
     | SimpleList      | 1.0.1   |
     | avr-stl         | 1.0.1   |
